@@ -5,7 +5,7 @@ qr = qrcode.QRCode(
     box_size = 10,
     border = 5
 )
-data = "https://www.youtube.com/watch?v=onHPipeASdk&list=PLpp8-k7G_6Y3Wj1suZQ-9lATFzFuGw93x&index=1"
+data = "https://www.linkedin.com/in/sagar-suyal-847b31217/"
 qr.add_data(data)
 qr.make(fit = True)
 img = qr.make_image(fill = "black",back_color ="white")
